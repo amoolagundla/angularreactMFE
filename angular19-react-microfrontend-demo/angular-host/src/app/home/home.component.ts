@@ -29,7 +29,7 @@ interface TodoItem {
               <ul class="mb-0">
                 <li><strong>Standalone Components</strong> (no NgModules needed)</li>
                 <li><strong>Signals</strong> for reactive state management</li>
-                <li><strong>New Control Flow</strong> (@if, @for syntax)</li>
+                <li><strong>New Control Flow</strong> (&#64;if, &#64;for syntax)</li>
                 <li><strong>Modern TypeScript</strong> with strict mode</li>
                 <li><strong>Improved Performance</strong> and bundle size</li>
               </ul>
@@ -102,7 +102,7 @@ interface TodoItem {
             <ul class="list-unstyled">
               <li>✅ <strong>Standalone Components</strong></li>
               <li>✅ <strong>Signals API</strong></li>
-              <li>✅ <strong>New Control Flow (@if, @for)</strong></li>
+              <li>✅ <strong>New Control Flow (&#64;if, &#64;for)</strong></li>
               <li>✅ <strong>Improved TypeScript Support</strong></li>
               <li>✅ <strong>Enhanced Performance</strong></li>
               <li>✅ <strong>Modern Build System</strong></li>
@@ -128,7 +128,7 @@ export class HomeComponent {
   newTodo = '';
   todos = signal<TodoItem[]>([
     { id: 1, text: 'Learn Angular 19 Signals', completed: true },
-    { id: 2, text: 'Try new @if/@for syntax', completed: true },
+    { id: 2, text: 'Try new &#64;if/&#64;for syntax', completed: true },
     { id: 3, text: 'Build micro frontends', completed: false },
     { id: 4, text: 'Deploy to production', completed: false }
   ]);

@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common';
             <ul>
               <li><strong>Standalone Components</strong> - No NgModules required</li>
               <li><strong>Signals API</strong> - Reactive state management</li>
-              <li><strong>New Control Flow</strong> - @if, @for, @switch syntax</li>
+              <li><strong>New Control Flow</strong> - &#64;if, &#64;for, &#64;switch syntax</li>
               <li><strong>Enhanced TypeScript</strong> - Better type safety</li>
               <li><strong>Modern Build System</strong> - Improved performance</li>
               <li>Runs on port 4200</li>
